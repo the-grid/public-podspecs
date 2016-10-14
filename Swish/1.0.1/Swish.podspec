@@ -13,8 +13,8 @@ Pod::Spec.new do |spec|
   spec.source = { :git => 'https://github.com/the-grid/Swish.git', :tag => "v#{spec.version}" }
   spec.source_files = 'Source/**/*.{h,swift}'
 
-  spec.dependency 'Argo', '~> 3.0.0'
-  spec.dependency 'Result', '~> 2.1.0'
+  spec.dependency 'Argo', '~> 4.0.0'
+  spec.dependency 'Result', '~> 3.0.0'
 
   spec.requires_arc = true
 
